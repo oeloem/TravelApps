@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/travel_bg"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/txa"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnWisata"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_wisata"
+                android:text="@string/btn_text_wisata"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/txb"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_hotel"
+                android:text="@string/btn_text_hotel"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/txc"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:padding="2dp"
+                android:text=""></TextView>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_login"
+                android:text="@string/btn_text_login"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"/>
+
+            <TextView
+                android:id="@+id/txd"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/txi"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_about"
+                android:text="@string/btn_text_about"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"/>
+
+            <TextView
+                android:id="@+id/txe"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_feedback"
+                android:text="@string/btn_text_feedback"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"/>
+
+            <TextView
+                android:id="@+id/txf"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/icon_share"
+                android:text="@string/btn_text_setting"
+                android:textStyle="bold"
+                android:background="@layout/button_orange"
+                android:gravity="center|center_horizontal"/>
+
+            <TextView
+                android:id="@+id/txg"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
